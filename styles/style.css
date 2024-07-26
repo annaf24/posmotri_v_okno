@@ -14,7 +14,7 @@ html {
   justify-content: center;
   inline-size: 1200px;
   block-size: 100%;
-  margin: 0 auto;
+  margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -61,13 +61,13 @@ ol {
 
 /*Кнопки*/
 .button {
-  font-family: Fira Sans Condensed;
+  font-family: inherit; 
   font-size: 18px;
   font-weight: 700;
   line-height: 21.6px;
   color: #FFFFFF;
   background-color: transparent;
-  border: 1px solid #FFFFFF;
+  border: 1px solid currentColor;
   cursor: pointer;
 }
 
@@ -215,7 +215,7 @@ button:focus {
 
 .title {
   padding-bottom: 28px;
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
@@ -279,7 +279,7 @@ button:focus {
 
 .content__video-card-title {
   margin-bottom: 6px;
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
@@ -290,7 +290,8 @@ button:focus {
 }
 
 .content__video-card-description {
-  font-family: Fira Sans Condensed;
+  max-width: 200px;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
